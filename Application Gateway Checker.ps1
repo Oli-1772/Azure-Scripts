@@ -1,3 +1,6 @@
+#Simple Powershell Script to check the health of hosts in the backend pool of an Application Gateway in Azure
+#Requires the correct permissions in IAM on the Application Gateway to authenticate.  
+
 #Authenticates using Enterprise application in Azure a user with 2FA enabled will have to reauthenticate each time the script is run and cannot be automated this way
 $APPLICATIONID="ENTERPRISE-APPLICATION-ID"
 $SECUREPASS="ENTERPRISE-APPLICATION-KEY"
